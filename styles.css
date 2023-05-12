@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: hsl(300, 24%, 96%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.principal--text {
+  text-align: left;
+  margin: 50px 0 30px 50px;
+}
+.principal--text h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: hsl(300, 43%, 22%);
+  margin-bottom: 10px;
+}
+.principal--text h2 {
+  font-size: 14px;
+  color: hsl(303, 10%, 53%);
+  line-height: 1.6;
+}
+
+.reviews {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+.reviews .reviews__box {
+  background-color: hsl(300, 43%, 22%);
+  color: white;
+  border-radius: 10px;
+  width: 320px;
+  padding: 30px;
+  margin: 10px;
+}
+.reviews .reviews__box h3 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.reviews .reviews__box p {
+  font-size: 12px;
+  line-height: 1.4;
+  margin-bottom: 16px;
+}
+.reviews .reviews__box:nth-child(2n+1) {
+  margin-left: 0;
+}
+
+.references {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-right: 50px;
+}
+.references .references__box {
+  background-color: hsl(300, 43%, 22%);
+  color: rgb(225, 225, 225);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+}
+.references .references__box h3 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+/*# sourceMappingURL=styles.css.map */
